@@ -7,7 +7,7 @@ namespace Allub.Models
         [StringLength(255)]
         public string Title { get; set; }
         [StringLength(255)]
-        public string Subtitle { get; set; }
+        public string SubTitle { get; set; }
         [StringLength(1000)]
         public string Description { get; set; }
         [StringLength(255)]
