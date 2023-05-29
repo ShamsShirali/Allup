@@ -31,5 +31,6 @@ namespace Allub.Models
         public Brand? Brand { get; set; }
         public int? CategoryId { get; set; }
         public Category? Category { get; set; }
+        public IEnumerable<Product> ProductImages { get; set;}
     }
 }
