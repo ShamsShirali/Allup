@@ -13,5 +13,6 @@ namespace Allub.Models
         public int? ParentId { get; set; }
         public Category? Parent { get; set; }
         public IEnumerable<Category>? Children { get; set;}
+        public IEnumerable<Product>? Products { get; set; }
     }
 }

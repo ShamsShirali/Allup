@@ -8,7 +8,7 @@ namespace Allub.ViewComponents
     {
         private readonly AppDbContext _context;
 
-        public CategoryViewComponents(AppDbContext context)
+        public CategoryViewComponent(AppDbContext context)
         {
             _context = context;
         }

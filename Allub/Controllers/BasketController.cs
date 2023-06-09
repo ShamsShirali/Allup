@@ -1,11 +1,9 @@
 ﻿using Allub.DataAccessLayer;
 using Allub.Models;
-using Allub.ViewModels.BasketVM;
 using Allub.ViewModels.BasketVMs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using NuGet.ContentModel;
 
 namespace Allub.Controllers
 {
